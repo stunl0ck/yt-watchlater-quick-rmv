@@ -1,0 +1,56 @@
+.yt-quick-remove-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-right: 10px;
+    margin-left: 2px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--yt-spec-text-secondary);
+    transition: all 0.2s ease;
+    opacity: 0.7;
+    min-width: 36px;
+    min-height: 36px;
+}
+
+.yt-quick-remove-btn:hover {
+    background-color: rgba(255, 68, 68, 0.1);
+    color: #ff4444;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.yt-quick-remove-btn:active {
+    transform: scale(0.95);
+}
+
+ytd-playlist-video-renderer #index-container {
+    display: flex;
+    align-items: center;
+}
+
+.yt-quick-remove-btn {
+    opacity: 0.6;
+    transition: all 0.2s ease;
+}
+
+ytd-playlist-video-renderer:hover .yt-quick-remove-btn {
+    opacity: 0.8;
+}
+
+ytd-playlist-video-renderer:hover .yt-quick-remove-btn:hover {
+    opacity: 1;
+    color: #ff4444;
+    background-color: rgba(255, 68, 68, 0.1);
+}
+
+ytd-playlist-video-renderer {
+    position: relative;
+}
+
+.yt-quick-remove-btn svg {
+    pointer-events: none;
+}
