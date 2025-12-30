@@ -2,7 +2,13 @@
 
 One-click remove button for YouTube Watch Later playlist.
 
-![Example](example.png)
+*Watch page:*
+
+<img src="example2.png" width="400">
+
+*Playlist page:*
+
+<img src="example.png" width="400">
 
 ## Install
 
