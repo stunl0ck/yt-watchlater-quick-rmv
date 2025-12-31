@@ -8,16 +8,11 @@
       "id": "yt-watchlater-quick-rmv@stunl0ck",
       "strict_min_version": "109.0",
       "data_collection_permissions": {
-        "technicalAndInteractionData": false,
-        "locationData": false,
-        "healthData": false,
-        "financialData": false
+        "required": [],
+        "optional": []
       }
     }
   },
-  "permissions": [
-    "https://www.youtube.com/*"
-  ],
   "content_scripts": [
     {
       "matches": [
