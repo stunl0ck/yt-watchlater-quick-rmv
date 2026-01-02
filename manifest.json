@@ -5,10 +5,12 @@
   "description": "One-click remove button for YouTube Watch Later playlist",
   "browser_specific_settings": {
     "gecko": {
-      "id": "yt-watchlater-quick-rmv@stunl0ck",
-      "strict_min_version": "109.0",
+      "id": "{4d13d126-343f-44a9-8dcf-1bf5218b618a}",
+      "strict_min_version": "142.0",
       "data_collection_permissions": {
-        "required": [],
+        "required": [
+          "none"
+        ],
         "optional": []
       }
     }
